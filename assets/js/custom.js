@@ -9,6 +9,7 @@
 		once: true
 	});
 
+	/*
 	var preloader = function() {
 
 		var loader = document.querySelector('.loader');
@@ -31,8 +32,9 @@
 		}, 200);
 	};
 	preloader();
+       */
 	
-
+        /*
 	var tinyslier = function() {
 
 		
@@ -90,14 +92,16 @@
 
 	}
 	tinyslier();
+	*/
 
-
+        /*
 	var lightbox = function() {
 		var lightboxVideo = GLightbox({
 			selector: '.glightbox3'
 		});
 	};
 	lightbox();
+	*/
 
 
 
