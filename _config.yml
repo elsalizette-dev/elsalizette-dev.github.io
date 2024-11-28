@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+# Welcome to Jekyll!  
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -24,10 +24,10 @@ facebook_username: Ozono-Cell-261247420893894
 telefono: +52 (55) 5605 - 0168
 direccion_1: Gabriel Mancera 1514-1
 direccion_2: Colonia Del Valle
-direccion_3: CDMX, México
+direccion_3: CDMX, MÃ©xico
 description: >-
   Especialista en tratamientos de ozonoterapia y terapias alternativas.
-  Soluciones médicas innovadoras para un gran bienestar.
+  Soluciones mÃ©dicas innovadoras para un gran bienestar.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
