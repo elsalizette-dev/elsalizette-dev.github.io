@@ -9754,7 +9754,7 @@
         width: 30px;
         height: 30px;
         position: relative;
-        background: #777;
+        background: var(--color1);
         border-radius: 50%;
         color: white; }
         .site-footer .social li a:before {
