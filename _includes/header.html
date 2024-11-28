@@ -10,16 +10,16 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    {% if home.modifyNav %}
+    {% if page.modifyNav %}
         <nav class="site-nav   mt-3 clearfix">
     {% else %}
         <nav class="site-nav position-absolute light mt-3 clearfix">
     {% endif %}
-    
+
         <div class="container">
             <div class="site-navigation">
-                
-                {% if home.modifyNav %}
+
+                {% if page.modifyNav %}
                 <a href="{{ "/" | relative_url }}" class="logo m-0 float-start">{{ site.title | escape }}</a>
                 {% else %}
                 <a href="{{ "/" | relative_url }}" class="logo m-0 float-start text-white">{{ site.title | escape }}</a>
