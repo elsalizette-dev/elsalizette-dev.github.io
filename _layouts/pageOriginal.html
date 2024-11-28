@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="hero hero-bg overlay inner bg-light" style="background-image: url('{{ "/assets/images/hero-img-1-min.jpg" | relative_url }}');">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 h-100 text-center mx-auto">
+                    <div class="masthead" >
+                        <h1 class="heading mb-3 text-white">{{page.campoPersonalizado1}}</h1>
+                        <p  class="text-white" ><span class="d-block mb-3" data-aos="fade-up">July 17, 2019 <span class="mx-2 text-primary">&bullet;</span> by James Miller</span></p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

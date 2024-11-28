@@ -1,0 +1,154 @@
+---
+layout: default
+---
+
+<div class="hero hero-bg inner bg-light" style="background-image: url('{{ "/assets/images/hero-img-1-min.jpg" | relative_url }}');">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 h-100">
+                    <div class="masthead" >
+                        <h1 class="text-white">Testimonios</h1>
+                        <p class="mb-5 text-light-opacity-50">Nuestros servicios se enfocan principalmente en mejorar la calidad de vida de nuestros pacientes.</p>
+                        <!--
+                        <p>
+                            <a href="/contact/" class="btn btn-primary me-4">Get in touch</a>
+
+                            <a href="#">Learn more</a>
+
+                        </p>
+                        -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section sec-2 pt-0 ">
+        <div class="container">
+            <div class="row g-4 overlap">
+
+                <div class="col-lg-4">
+                    <div class="custom-card">
+                        <img src='{{ "/assets/images/folletos/antiedad.png" | relative_url }}' alt="" class="img-fluid">
+                        <div class="custom-card-body">
+                            <h3>Efectos Antiedad</h3>
+                            <p>Lorem ipsum.
+                            </p>
+
+                            <ul class="list-unstyled ul-check mb-4">
+                                <li>Deserunt harum incidunt </li>
+                                <li>Ex nesciunt est temporibus ipsum</li>
+                                <li>Vel rem eveniet facere et velit sunt</li>
+                                <li>Aspernatur eaque quis</li>
+                                <li>Dolorem magnam quisquam? Facere</li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="custom-card">
+                        <img src='{{ "/assets/images/folletos/reparacion_capilar.png" | relative_url }}' alt="" class="img-fluid">
+                        <div class="custom-card-body">
+                            <h3>Reparacion capilar</h3>
+                            <p>Curación de heridas con campanas de ozono y aplicación de aceite de olivo ozonizado, para cierre de heridas complicadas.</p>
+
+                            <ul class="list-unstyled ul-check mb-4">
+                                <li>Deserunt harum incidunt </li>
+                                <li>Ex nesciunt est temporibus ipsum</li>
+                                <li>Vel rem eveniet facere et velit sunt</li>
+                                <li>Aspernatur eaque quis</li>
+                                <li>Dolorem magnam quisquam? Facere</li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="custom-card">
+                        <img src='{{ "/assets/images/folletos/regenerativo.png" | relative_url }}' alt="" class="img-fluid">
+                        <div class="custom-card-body">
+                            <h3>Efectos Regenerativos</h3>
+                            <p>Los mejores resultados con medicina regenerativa, se parte del cambio con nuestros innovadores tratamientos que solo ofrecemos en nuestro centro</p>
+
+                            <ul class="list-unstyled ul-check mb-4">
+                                <li>Deserunt harum incidunt </li>
+                                <li>Ex nesciunt est temporibus ipsum</li>
+                                <li>Vel rem eveniet facere et velit sunt</li>
+                                <li>Aspernatur eaque quis</li>
+                                <li>Dolorem magnam quisquam? Facere</li>
+                            </ul>                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section sec-2 pt-0 ">
+        <div class="container">
+            <div class="row g-4 overlap">            
+                <div class="col-lg-4">
+                    <div class="custom-card">
+                        <img src='{{ "/assets/images/testimonio_1.jpg" | relative_url }}' alt="" class="img-fluid">
+                        <div class="custom-card-body">
+                            <h3>Testimonio 1</h3>
+                            <p>Curación de heridas necróticas con aplicación de bota ozonizada y terapia sistémica para el cierre acelerado de las mismas.
+                            </p>
+
+                            <ul class="list-unstyled ul-check mb-4">
+                                <li>Deserunt harum incidunt </li>
+                                <li>Ex nesciunt est temporibus ipsum</li>
+                                <li>Vel rem eveniet facere et velit sunt</li>
+                                <li>Aspernatur eaque quis</li>
+                                <li>Dolorem magnam quisquam? Facere</li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="custom-card">
+                        <img src='{{ "/assets/images/testimonio_2.jpg" | relative_url }}' alt="" class="img-fluid">
+                        <div class="custom-card-body">
+                            <h3>Testimonio 2</h3>
+                            <p>Curación de heridas con campanas de ozono y aplicación de aceite de olivo ozonizado, para cierre de heridas complicadas.</p>
+
+                            <ul class="list-unstyled ul-check mb-4">
+                                <li>Deserunt harum incidunt </li>
+                                <li>Ex nesciunt est temporibus ipsum</li>
+                                <li>Vel rem eveniet facere et velit sunt</li>
+                                <li>Aspernatur eaque quis</li>
+                                <li>Dolorem magnam quisquam? Facere</li>
+                            </ul>                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="custom-card">
+                        <img src='{{ "/assets/images/testimonio_3.jpg" | relative_url }}' alt="" class="img-fluid">
+                        <div class="custom-card-body">
+                            <h3>Testimonio 3</h3>
+                            <p>Los mejores resultados con medicina regenerativa, se parte del cambio con nuestros innovadores tratamientos que solo ofrecemos en nuestro centro</p>
+
+                            <ul class="list-unstyled ul-check mb-4">
+                                <li>Deserunt harum incidunt </li>
+                                <li>Ex nesciunt est temporibus ipsum</li>
+                                <li>Vel rem eveniet facere et velit sunt</li>
+                                <li>Aspernatur eaque quis</li>
+                                <li>Dolorem magnam quisquam? Facere</li>
+                            </ul>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+

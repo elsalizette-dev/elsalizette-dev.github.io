@@ -1,0 +1,108 @@
+<div class="site-footer">
+        <div class="container">
+
+            <div class="row">
+                
+
+                <div class="col-lg-2 ml-auto">
+                    <div class="widget">
+                        {%- if page_paths -%}
+                        <h3>Links</h3>
+                        <ul class="list-unstyled float-left links">
+
+                        {%- for path in page_paths -%}
+                            {%- assign my_page = site.pages | where: "path", path | first -%}
+                            {%- if my_page.title -%}
+                                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                            {%- endif -%}
+                        {%- endfor -%}
+
+                        </ul>
+                    {%- endif -%}
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-3 -->
+
+
+
+                <div class="col-lg-3">
+                    <div class="widget">
+
+
+                    <div class="contact-info">
+                    <h3>Contacto</h3>
+               <div class="address mt-4"> <i class="icon-room"></i>
+                  <h4 class="mb-2">Dirección:</h4>
+
+                  {%- if site.direccion_1 -%}
+                        <p>{{ site.direccion_1 }}
+                        {%- if site.direccion_2 -%}
+                            <br /> {{ site.direccion_2 }}
+                        {%- endif -%}
+
+                        {%- if site.direccion_3 -%}
+                            <br /> {{ site.direccion_3 }}
+                        {%- endif -%}
+                        </p>
+                    {%- endif -%}
+               </div>
+               
+               <div class="email mt-4"> <i class="icon-envelope"></i>
+                  <h4 class="mb-2">Correo electrónico:</h4>
+
+                  <p>{{ site.email }}</p>
+               </div>
+               
+            </div>
+
+
+
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-3 -->
+
+                <div class="col-lg-3">
+                    <div class="widget">
+
+
+                    <div class="contact-info">
+                    <h3>&nbsp;</h3>
+               
+               <div class="open-hours mt-4"> <i class="icon-clock-o"></i>
+                  <h4 class="mb-2">Horario de atención:</h4>
+
+                  <p>Lunes a Sábado:<br> 10:00 - 15:00 HRS </p>
+
+               </div>
+               
+               <div class="phone mt-4"> <i class="icon-phone"></i>
+                  <h4 class="mb-2">Teléfono:</h4>
+
+                  <p>{{ site.telefono }}</p>
+               </div>
+            </div>
+
+
+
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-3 -->
+
+                <div class="col-lg-4">
+                    <!-- <div class="widget">
+                        <h3>Sobre nosotros</h3>
+                        <p>Terapia alternativa para vivir mejor</p>
+                    </div> --> <!-- /.widget -->
+                    <div class="widget">
+                        <h3>Redes Sociales</h3>
+                        <ul class="list-unstyled social">
+
+                            <li><a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><span class="icon-facebook"></span></a></li>
+
+                        </ul>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-3 -->
+
+            </div> <!-- /.row -->
+
+
+        </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
