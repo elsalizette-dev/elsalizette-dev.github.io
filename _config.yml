@@ -1,5 +1,6 @@
 #remote-theme: adriana-guzman/my-own-jekyll-theme
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
+remote-theme:chesterhow/tale
 
 #baseurl: ""
 #url: "https://elsalizette-dev.github.io"
