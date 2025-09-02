@@ -1,4 +1,8 @@
 #remote-theme: adriana-guzman/my-own-jekyll-theme
 remote-theme: benbalter/retlab
+#theme:jekyll-theme-minimal
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!
+
+plugins:
+    - jekyll-remote-theme
