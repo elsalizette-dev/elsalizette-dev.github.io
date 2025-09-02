@@ -1,0 +1,8 @@
+# Site settings
+title: Adriana Guzmán 2
+description: "A blog for Adriana 2"
+
+remote_theme: adriana-guzman/my-own-jekyll-theme
+
+plugins:
+  - jekyll-remote-theme
