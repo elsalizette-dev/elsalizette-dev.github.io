@@ -1,13 +1,5 @@
-#remote-theme: adriana-guzman/my-own-jekyll-theme
-#remote_theme: jekyll/minima
-remote-theme:chesterhow/tale
-
-#baseurl: ""
-#url: "https://elsalizette-dev.github.io"
-
-
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+remote-theme: adriana-guzman/my-own-jekyll-theme
 
 plugins:
   - jekyll-remote-theme
+
