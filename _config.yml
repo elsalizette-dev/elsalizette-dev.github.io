@@ -1,5 +1,6 @@
-remote_theme: adriana-guzman/my-own-jekyll-theme
+#remote_theme: adriana-guzman/my-own-jekyll-theme
 #remote_theme: chesterhow/tale
+remote_theme: KingFelix/emerald
 
 plugins:
   - jekyll-remote-theme
