@@ -21,6 +21,6 @@ layout: default
 
 <h3>Versions</h3>
 {% for entry in site.github.versions %}
-  <p>{{ entry }}</p>
+  <p>{{ entry[0] }}: {{ entry[1] }}</p>
 {% endfor %}
 
