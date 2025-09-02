@@ -2,3 +2,6 @@ remote-theme: adriana-guzman/my-own-jekyll-theme
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-github-metadata
+
+
