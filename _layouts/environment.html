@@ -14,12 +14,13 @@ layout: default
 <p>time: {{site.time}}</p>
 
 <!--
-<p>{{site.github.versions}}</p>
+<p>{{site.github}}</p>
 -->
 
-
 <p>{{site.github.versions}}</p>
 
-
-
+<h3>Versions</h3>
+{% for entry in site.github.versions %}
+  <p>{{ entry }}</p>
+{% endfor %}
 
