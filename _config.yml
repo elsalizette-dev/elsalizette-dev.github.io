@@ -4,6 +4,7 @@ remote-theme: "adriana-guzman/my-own-jekyll-theme"
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-include-cache
+  #- jekyll-include-cache
+
 
 
