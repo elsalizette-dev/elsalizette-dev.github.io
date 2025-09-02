@@ -1,7 +1,9 @@
 remote-theme: "adriana-guzman/my-own-jekyll-theme"
 #remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+
 
