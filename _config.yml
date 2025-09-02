@@ -2,7 +2,8 @@
 title: Adriana 2
 description: "A blog for Adriana 2"
 
-remote_theme: adriana-guzman/my-own-jekyll-theme
+#remote_theme: adriana-guzman/my-own-jekyll-theme
+remote_theme: KingFelix/emerald
 
 plugins:
   - jekyll-remote-theme
